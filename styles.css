@@ -1,0 +1,107 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f4f8;  /* Light background */
+    color: #333;  /* Dark text for contrast */
+}
+
+/* Header Styling */
+header {
+    background-color: #001f3f;  /* Deep navy blue */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Navigation Links */
+nav a {
+    color: #7fdbff;  /* Light blue */
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #ffffff;  /* White on hover */
+    border-bottom: 2px solid #7fdbff;  /* Underline effect */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #003366;  /* Rich dark blue */
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0074d9;  /* Vibrant blue */
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: #005bb5;  /* Slightly darker blue on hover */
+}
+
+/* Content Section */
+.content {
+    padding: 4rem 3rem;
+    text-align: center;
+    background-color: #ffffff;  /* Pure white for readability */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    margin: 2rem auto;
+    max-width: 1100px;
+    border-radius: 8px;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #001f3f;
+}
+
+.content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #001f3f;
+    color: #7fdbff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
